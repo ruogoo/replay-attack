@@ -1,0 +1,21 @@
+{
+    "name": "ruogoo/replay-attack",
+    "description": "A laravel package which provide a middleware to prevent replay attack.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "HyanCat",
+            "email": "hyancat@live.cn"
+        }
+    ],
+    "require": {
+        "php": ">= 7.0",
+        "illuminate/support": "5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ruogoo\\ReplayAttack\\": "src/"
+        }
+    }
+}
