@@ -17,5 +17,12 @@
         "psr-4": {
             "Ruogoo\\ReplayAttack\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ruogoo\\ReplayAttack\\ServiceProvider"
+            ]
+        }
     }
 }
